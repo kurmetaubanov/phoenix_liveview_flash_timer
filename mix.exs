@@ -27,7 +27,7 @@ defmodule PhoenixLiveViewFlashTimer.MixProject do
 
   defp deps do
     [
-      {:phoenix_live_view, "~> 0.20"},
+      {:phoenix_live_view, ">= 0.20.0"},
       {:ex_doc, "~> 0.27", only: :dev, runtime: false}
     ]
   end
